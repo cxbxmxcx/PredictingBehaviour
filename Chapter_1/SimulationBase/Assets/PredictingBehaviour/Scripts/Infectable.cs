@@ -42,6 +42,8 @@ namespace IL.Simulation
 
         [Header("Marking the Status of Infectable")]
         public MeshRenderer statusMarker;
+        public MeshRenderer statusMarkerPrefab;
+        public float statusMarkerHeight;
 
         [Header("DEBUG - Form of the Infection Surface/Person")]
         public InfectionForm infectionForm;
@@ -72,7 +74,7 @@ namespace IL.Simulation
         }
 
         private new CapsuleCollider collider;
-        private float cumulativeTime;
+        public float cumulativeTime;
 
         public CapsuleCollider Collider
         {
@@ -83,8 +85,13 @@ namespace IL.Simulation
         }
 
         public void UpdateInfectionStatus()
-        {
-            if (statusMarker == null) return;
+        {            
+            if (statusMarker == null && statusMarkerPrefab != null)
+            {
+                statusMarker = Instantiate(statusMarkerPrefab, transform, false);
+                var pos = statusMarker.transform.localPosition;
+                statusMarker.transform.localPosition = new Vector3(pos.x, statusMarkerHeight, pos.z);
+            }
 
             if (infectionState == InfectionState.NONE && statusMarker != null)
             {

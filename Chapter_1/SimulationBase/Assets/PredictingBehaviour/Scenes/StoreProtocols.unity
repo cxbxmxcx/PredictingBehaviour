@@ -250,8 +250,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &8854686
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -395,8 +399,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &19620822
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -541,8 +549,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &38710967
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -687,8 +699,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &56818360
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -832,8 +848,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &66946102
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -978,8 +998,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &67054076
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1352,8 +1376,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &86410407
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1497,8 +1525,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &94068628
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1649,8 +1681,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &118350452
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1794,8 +1830,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &124328337
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2032,8 +2072,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &128083876
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2177,8 +2221,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &135144867
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2322,8 +2370,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &135688543
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2468,8 +2520,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &149631510
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2613,8 +2669,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &152609906
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2759,8 +2819,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &161610194
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2973,8 +3037,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &168002324
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3119,8 +3187,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &182367587
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3270,8 +3342,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &190635291
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3415,8 +3491,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &191322407
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3566,8 +3646,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &196016254
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3711,8 +3795,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &197102686
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3856,8 +3944,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &208399798
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4001,8 +4093,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &217487925
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4146,8 +4242,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &246568356
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4291,8 +4391,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &266330974
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4436,8 +4540,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &285350000
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4581,8 +4689,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &287840622
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4727,8 +4839,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &303624538
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4878,8 +4994,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &329035215
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5024,8 +5144,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &338193251
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5170,8 +5294,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &340544821
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5315,8 +5443,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &384087535
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5460,8 +5592,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &397131329
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5617,8 +5753,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &407755462
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5762,8 +5902,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &422044069
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5907,8 +6051,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &422145938
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6126,8 +6274,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &452178143
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6272,8 +6424,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &452405436
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6417,8 +6573,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &454484473
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6562,8 +6722,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &478650027
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6707,8 +6871,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &480388068
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6871,8 +7039,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &495557003
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7017,8 +7189,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &498170676
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7162,8 +7338,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &505654941
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7307,8 +7487,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &540494216
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7505,8 +7689,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &557180565
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7651,8 +7839,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &561028413
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7797,8 +7989,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &585276237
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7949,8 +8145,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &591398674
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8094,8 +8294,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &599197675
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8239,8 +8443,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &608391397
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8384,8 +8592,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &614107987
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8530,8 +8742,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &617044592
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8675,8 +8891,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &621761055
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8820,8 +9040,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &629635032
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9072,8 +9296,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &633219471
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9217,8 +9445,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &636971880
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9362,8 +9594,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &638616092
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9513,8 +9749,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &652869123
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9659,8 +9899,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &662689643
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9810,8 +10054,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &692157445
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9955,8 +10203,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &715639676
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10101,8 +10353,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &729211087
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10315,8 +10571,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &747823785
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10467,8 +10727,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &756448434
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10612,8 +10876,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &758494118
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10757,8 +11025,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &777930095
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10972,8 +11244,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &796181200
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -11117,8 +11393,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &800594054
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -11331,8 +11611,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &850953576
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -11476,8 +11760,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &853758903
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -11621,8 +11909,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &854217268
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -11766,8 +12058,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &862976636
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -11911,8 +12207,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &864964105
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12149,8 +12449,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &967075765
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12300,8 +12604,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &999356843
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12494,8 +12802,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1015293543
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12639,8 +12951,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1046876721
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12853,8 +13169,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1066859532
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12998,8 +13318,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1068704179
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13143,8 +13467,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1089022199
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13288,8 +13616,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1089528291
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13440,8 +13772,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1124781123
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13586,8 +13922,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1142504164
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13732,8 +14072,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1158226770
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13877,8 +14221,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1163926045
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -14022,8 +14370,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1163994656
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -14168,8 +14520,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1184707941
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -14344,8 +14700,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1190751664
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -14489,8 +14849,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1214202763
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -14635,8 +14999,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1253939384
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -14938,8 +15306,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1307316445
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -15083,8 +15455,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1316075922
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -15229,8 +15605,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1319747307
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -15374,8 +15754,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1323887527
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -15520,8 +15904,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1347464003
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -15665,8 +16053,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1392767375
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -15810,8 +16202,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1393689243
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -15955,8 +16351,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1413602298
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16100,8 +16500,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1418005378
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16245,8 +16649,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1432261811
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16390,8 +16798,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1439275193
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16541,8 +16953,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1469396363
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16686,8 +17102,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1495086529
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16831,8 +17251,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1502298472
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -17026,8 +17450,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1521618318
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -17171,8 +17599,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1534148314
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -17317,8 +17749,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1535571098
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -17463,8 +17899,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1547913573
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -17608,8 +18048,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1581851603
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -17759,8 +18203,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1593567037
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -17904,8 +18352,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1600827709
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18049,8 +18501,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1627384320
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18194,8 +18650,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1644790087
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18340,8 +18800,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1656996770
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18486,8 +18950,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1662176295
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18637,8 +19105,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1670932784
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18782,8 +19254,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1675000528
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18927,8 +19403,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1683181616
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -19073,8 +19553,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1690305048
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -19292,8 +19776,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1697194372
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -19437,8 +19925,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1715333919
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -19583,8 +20075,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1719075513
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -19779,8 +20275,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1735772901
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -19924,8 +20424,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1752759891
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -20069,8 +20573,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1753612260
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -20406,8 +20914,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1757896159
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -20551,8 +21063,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1759041691
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -20702,8 +21218,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1782590765
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -20847,8 +21367,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1786553842
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -20998,8 +21522,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1799629613
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -21144,8 +21672,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1799967242
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -21290,8 +21822,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1805910770
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -21510,8 +22046,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1826163390
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -21656,8 +22196,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1831509304
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -21802,8 +22346,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1854260416
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -21947,8 +22495,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1869022464
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -22093,8 +22645,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1871124795
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -22238,8 +22794,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1871299755
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -22390,8 +22950,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1887147254
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -22535,8 +23099,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1887833845
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -22681,8 +23249,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1892365138
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -22826,8 +23398,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1915234794
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -23045,8 +23621,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1918036565
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -23190,8 +23770,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1934349409
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -23335,8 +23919,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1949060548
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -23481,8 +24069,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1965669075
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -23627,8 +24219,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1966037469
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -23940,8 +24536,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &1999731296
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -24091,8 +24691,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &2010066024
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -24236,8 +24840,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &2010284470
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -24529,8 +25137,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &2063339241
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -24675,8 +25287,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &2066509418
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -24821,8 +25437,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &2078236785
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -24966,8 +25586,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &2080013671
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -25111,8 +25735,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &2093009565
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -25256,8 +25884,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &2096531649
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -25401,8 +26033,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &2103959681
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -25626,8 +26262,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &2129283917
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -25772,8 +26412,12 @@ MonoBehaviour:
   mask: 1
   _infectionState: 0
   statusMarker: {fileID: 0}
+  statusMarkerPrefab: {fileID: 208433004193238523, guid: 276f32b8e071de348b4fa436b9e10cf0,
+    type: 3}
+  statusMarkerHeight: 0
   infectionForm: 1
   numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!136 &2129785337
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -26168,6 +26812,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4def68f6f2d372a4c94283b0a17f39b1, type: 3}
+--- !u!1001 &4433463622685751525
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1863640912334525019, guid: 276f32b8e071de348b4fa436b9e10cf0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863640912334525019, guid: 276f32b8e071de348b4fa436b9e10cf0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863640912334525019, guid: 276f32b8e071de348b4fa436b9e10cf0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863640912334525019, guid: 276f32b8e071de348b4fa436b9e10cf0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863640912334525019, guid: 276f32b8e071de348b4fa436b9e10cf0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863640912334525019, guid: 276f32b8e071de348b4fa436b9e10cf0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863640912334525019, guid: 276f32b8e071de348b4fa436b9e10cf0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863640912334525019, guid: 276f32b8e071de348b4fa436b9e10cf0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863640912334525019, guid: 276f32b8e071de348b4fa436b9e10cf0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863640912334525019, guid: 276f32b8e071de348b4fa436b9e10cf0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863640912334525019, guid: 276f32b8e071de348b4fa436b9e10cf0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696665989376764073, guid: 276f32b8e071de348b4fa436b9e10cf0,
+        type: 3}
+      propertyPath: m_Name
+      value: StatusMarkerPrefab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 276f32b8e071de348b4fa436b9e10cf0, type: 3}
 --- !u!1001 &7318978709945426972
 PrefabInstance:
   m_ObjectHideFlags: 0

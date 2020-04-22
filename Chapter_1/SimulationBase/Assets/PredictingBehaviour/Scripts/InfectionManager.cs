@@ -87,13 +87,40 @@ namespace IL.Simulation
 
         public void InfectTarget(Infectable target)
         {
-            if(target != null && target.infectionState == InfectionState.NONE)
+            if (target != null && target.infectionState == InfectionState.NONE)
             {
-                if (logInfections)
-                    DebugHelper.Log(Color.red, "Infected {0}".Format(target.name));
-                target.infectionState = InfectionState.INFECTED;
+                switch (target.infectionForm)
+                {
+                    case InfectionForm.AGENT:
+                        {
+                            var r0 = target.mask ? protectedHR : unprotectedHR;
+                            if (target.cumulativeTime * r0 > Random.Range(0, 100.0f))
+                            {
+                                Infect(target, InfectionState.INFECTED, true);
+                            }
+                        }
+                        break;
+
+                    case InfectionForm.WAYPOINT:
+                        {
+                            var r0 = target.mask ? protectedHR : unprotectedHR;
+                            if (target.cumulativeTime * r0 > Random.Range(0, 100.0f))
+                            {
+                                Infect(target, InfectionState.CONTAGIOUS_ASYMPTOMATIC, false);
+                            }
+                        }
+                        break;
+                }
+            }
+        }
+
+        private void Infect(Infectable target, InfectionState state, bool addToMap)
+        {
+            if (logInfections)
+                DebugHelper.Log(Color.red, "Infected {0}".Format(target.name));
+            target.infectionState = state;
+            if(addToMap)
                 AddInfectionMap(target.transform.position);
-            }            
         }
 
         private void AddInfectionMap(Vector3 position)
