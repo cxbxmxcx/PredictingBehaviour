@@ -100,7 +100,7 @@ namespace IL.Simulation
             else
             {
                 statusMarker.gameObject.SetActive(true);
-                statusMarker.material = InfectionManager.Instance.GetStatusMaterial(infectionState);
+                statusMarker.material = InfectionManager.Instance.GetStatusMaterial(this, infectionState);
             }
         }
 

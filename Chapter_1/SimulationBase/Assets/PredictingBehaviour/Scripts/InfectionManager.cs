@@ -23,6 +23,9 @@ namespace IL.Simulation
         public float rateCustomerInfected = 1f;
         public float cumulativeChanceInfected = 0f;
 
+        [Header("Key Press to infect next customer")]
+        public KeyCode infectionKey = KeyCode.Space;
+
         [Header("Percent Chance Symptomatic vs Asympotomatic")]
         public float chanceSymptomatic = 50f;
 
@@ -31,7 +34,8 @@ namespace IL.Simulation
         public float baseInfectionRadius = .5f;
 
         [Header("Set of Materials Used to Show Infection")]
-        public Material[] infectionMaterials;
+        public Material[] agentInfectionMaterials;
+        public Material[] wayInfectionMaterials;
 
         [Header("Tags Used to Define Trigger Objects")]
         public string[] humanColliderTags;
@@ -40,6 +44,14 @@ namespace IL.Simulation
         [Header("Infection Map")]
         public InfectionMap infectionMap;
         public bool showInfectionMap;
+
+        private void Update()
+        {
+            if (Input.GetKeyDown(infectionKey))
+            {
+                cumulativeChanceInfected = 100;
+            }
+        }
 
         public void SetInfection(Infectable iv)
         {
@@ -134,9 +146,20 @@ namespace IL.Simulation
             }
         }
           
-        public Material GetStatusMaterial(InfectionState lastState)
+        public Material GetStatusMaterial(Infectable iv, InfectionState lastState)
         {
-            return infectionMaterials[(int)lastState];
+            switch (iv.infectionForm)
+            {
+                case InfectionForm.AGENT:
+                    return agentInfectionMaterials[(int)lastState];
+
+                case InfectionForm.WAYPOINT:
+                    return wayInfectionMaterials[(int)lastState];
+
+                default:
+                    return wayInfectionMaterials[(int)lastState];
+            }
+                        
         }
     }
 }
