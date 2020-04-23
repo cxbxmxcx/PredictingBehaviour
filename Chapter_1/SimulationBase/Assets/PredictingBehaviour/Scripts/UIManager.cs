@@ -33,5 +33,30 @@ namespace IL.Simulation
             Time.timeScale = Time.timeScale * .5f;
         }
 
+        public void InfectNextCustomer()
+        {
+            InfectionManager.Instance.InfectNextCustomer();
+        }
+
+        public void ShowHideMap()
+        {
+            InfectionManager.Instance.ShowHideMap();
+        }
+
+        public void SetCameraOverview()
+        {
+            CameraManager.Instance.SetCamera(CameraView.OVERVIEW);
+        }
+
+        public void SetCameraOverhead()
+        {
+            CameraManager.Instance.SetCamera(CameraView.OVERHEAD);
+        }
+
+        public void SetFreeCamera()
+        {
+            CameraManager.Instance.SetCamera(CameraView.FREE);
+        }
+
     }
 }

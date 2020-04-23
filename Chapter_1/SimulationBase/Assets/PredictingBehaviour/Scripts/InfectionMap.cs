@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -40,6 +41,12 @@ namespace IL.Simulation
                 blocks.Add(b);
                 map.Add(cell, blocks);
             }
+        }
+
+        public void ShowHideMap()
+        {
+            var active = gameObject.activeSelf;
+            gameObject.SetActive(!active);
         }
     }
 

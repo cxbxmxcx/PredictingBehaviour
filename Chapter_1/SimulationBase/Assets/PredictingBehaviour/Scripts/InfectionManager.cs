@@ -43,14 +43,18 @@ namespace IL.Simulation
 
         [Header("Infection Map")]
         public InfectionMap infectionMap;
-        public bool showInfectionMap;
-
+        
         private void Update()
         {
             if (Input.GetKeyDown(infectionKey))
             {
-                cumulativeChanceInfected = 100;
+                InfectNextCustomer();                
             }
+        }
+
+        public void InfectNextCustomer()
+        {
+            cumulativeChanceInfected = 100;
         }
 
         public void SetInfection(Infectable iv)
@@ -160,6 +164,14 @@ namespace IL.Simulation
                     return wayInfectionMaterials[(int)lastState];
             }
                         
+        }
+
+        public void ShowHideMap()
+        {
+            if(infectionMap != null)
+            {
+                infectionMap.ShowHideMap();
+            }
         }
     }
 }
