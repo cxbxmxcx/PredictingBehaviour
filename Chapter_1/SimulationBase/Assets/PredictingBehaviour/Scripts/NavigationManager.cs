@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -64,6 +63,11 @@ namespace IL.Simulation
                 shopList.Add(products[productNum]);
             }
             return shopList.ToArray();
+        }
+
+        public NavigationWaypoint[] GetExitWaypoints(Vector3 position)
+        {
+            return new NavigationWaypoint[0];
         }
     }
 }

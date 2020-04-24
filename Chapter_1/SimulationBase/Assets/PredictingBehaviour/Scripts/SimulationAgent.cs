@@ -20,9 +20,9 @@ namespace IL.Simulation
         public float minDelayTime = 30f;
         public float maxDelayTime = 120;
 
-        [Header("Shopping Waypoint List")]
-        public ProductWaypoint[] shopList;
-        public int shopItem;
+        [Header("Waypoint Travel List")]
+        public NavigationWaypoint[] travelList;
+        public int travelIndex;
 
         private NavMeshAgent agent;
         public NavMeshAgent Agent
@@ -39,7 +39,9 @@ namespace IL.Simulation
             {
                 return animator;
             }
-        }        
+        }
+
+        public bool doneShopping;
 
         private Vector3 destination;
         private bool paused;
@@ -49,8 +51,8 @@ namespace IL.Simulation
         void Shop()
         {            
             var items = Random.Range(minShopListItems, maxShopListItems);
-            shopList = NavigationManager.Instance.CreateShoppingList(items);
-            shopItem = 0;            
+            travelList = NavigationManager.Instance.CreateShoppingList(items);
+            travelIndex = 0;            
         }
 
         public void Init()
@@ -84,19 +86,25 @@ namespace IL.Simulation
         }
 
         private void ShopNextItem()
-        {
-            if (++shopItem > shopList.Length - 1)
+        {     
+            if (++travelIndex > travelList.Length - 1)
             {
-                Shop();
+                Shop();                 
             }
 
-            if (shopList.Length == 0) return;
+            if (travelList.Length == 0) return;
 
             var delay = Random.Range(minDelayTime, maxDelayTime);
             Pause(delay, agent.destination);
 
-            if (shopList[shopItem] == null) ShopNextItem();
-            agent.destination = shopList[shopItem].transform.position;
+            if (travelList[travelIndex] == null) ShopNextItem();
+            agent.destination = travelList[travelIndex].transform.position;
+        }
+
+        private void ExitStore()
+        {
+            travelList = NavigationManager.Instance.GetExitWaypoints(transform.position);
+            travelIndex = 0;
         }
 
         private void RotateTowards(Vector3 target)
