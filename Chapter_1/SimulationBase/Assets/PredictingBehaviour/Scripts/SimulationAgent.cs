@@ -103,7 +103,7 @@ namespace IL.Simulation
 
         private void ExitStore()
         {
-            travelList = NavigationManager.Instance.GetExitWaypoints(transform.position);
+            travelList = NavigationManager.Instance.GetRoute(transform.position, "Customer_Purchase_Exit");
             travelIndex = 0;
         }
 
