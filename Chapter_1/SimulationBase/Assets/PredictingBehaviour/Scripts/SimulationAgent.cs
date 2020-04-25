@@ -12,18 +12,15 @@ namespace IL.Simulation
         [Header("Movement Parameters")]
         public float rotationSpeed = 2;
 
-        [Header("Number of Shopping List Items")]
-        public int minShopListItems = 2;
-        public int maxShopListItems = 5;
+        public string agentType;
+        public AgentTask agentTask;
 
-        [Header("Agents Delay when Picking Product")]
-        public float minDelayTime = 30f;
-        public float maxDelayTime = 120;
+        [Header("Number of Tasks")]
+        public int minTaskItems = 2;
+        public int maxTaskItems = 5;
 
-        [Header("Waypoint Travel List")]
-        public NavigationWaypoint[] travelList;
-        public int travelIndex;
-
+        public long timeAlive;
+        
         private NavMeshAgent agent;
         public NavMeshAgent Agent
         {
@@ -41,28 +38,24 @@ namespace IL.Simulation
             }
         }
 
-        public bool doneShopping;
-
         private Vector3 destination;
         private bool paused;
         private int pausing;
         private Vector3 agentTarget;
-
-        void Shop()
-        {            
-            var items = Random.Range(minShopListItems, maxShopListItems);
-            travelList = NavigationManager.Instance.CreateShoppingList(items);
-            travelIndex = 0;            
-        }
-
+        
         public void Init()
         {
             agent = GetComponent<NavMeshAgent>();
-            animator = GetComponent<Animator>();             
+            animator = GetComponent<Animator>();
+            GetNextTask();
         }
-         
+
+        public void GetNextTask() => agentTask = NavigationManager.Instance.GetAgentTask(agentType, timeAlive);
+
         private void Update()
         {
+            timeAlive++;
+
             if (agent == null) return;
             
             if (paused && pausing-- > 0)
@@ -81,31 +74,30 @@ namespace IL.Simulation
 
             if (agent.pathPending == false && agent.remainingDistance < 0.5f)
             {
-                ShopNextItem();                
+                MoveNext();                
             }
         }
 
-        private void ShopNextItem()
-        {     
-            if (++travelIndex > travelList.Length - 1)
+        private void MoveNext()
+        {                 
+            if (agentTask == null)
             {
-                Shop();                 
+                GetNextTask();                 
             }
+                                    
+            Pause(agentTask.delay, agent.destination);
 
-            if (travelList.Length == 0) return;
-
-            var delay = Random.Range(minDelayTime, maxDelayTime);
-            Pause(delay, agent.destination);
-
-            if (travelList[travelIndex] == null) ShopNextItem();
-            agent.destination = travelList[travelIndex].transform.position;
+            var next = agentTask.NextWaypoint;
+            if (next != null)
+            {
+                agent.destination = next.transform.position;
+            }
+            else
+            {
+                GetNextTask();
+            }
         }
 
-        private void ExitStore()
-        {
-            travelList = NavigationManager.Instance.GetRoute(transform.position, "Customer_Purchase_Exit");
-            travelIndex = 0;
-        }
 
         private void RotateTowards(Vector3 target)
         {

@@ -59,6 +59,13 @@ namespace IL.Simulation
             }                        
         }
 
+        public AgentTask GetAgentTask(string agentType, long timeAlive)
+        {
+            var at = new AgentTask();
+            at.waypoints = CreateShoppingList(5);
+            return at;
+        }
+
         private void LoadRoutes()
         {
             routes = GetComponentsInChildren<NavigationRoute>(true).ToList();
@@ -66,8 +73,7 @@ namespace IL.Simulation
             {
                 var child = transform.GetChild(i);
                 var route = child.gameObject.GetComponent<NavigationRoute>();
-                if (route != null) routes.Add(route);
-                
+                if (route != null) routes.Add(route);                
             }
         }
 
