@@ -8,6 +8,11 @@ namespace IL.Simulation
     {
         [Header("Filter Used to Detect Target at Point")]
         public string[] targetTagFilters;
+
+        [Header("How long agent should wait at this local")]
+        public int minDelayTime = 30;
+        public int maxDelayTime = 120;
+
         [Header("DEBUG - Is the Waypoint Infected")]
         public bool canInfect;
         public bool isInfected;        
@@ -22,6 +27,14 @@ namespace IL.Simulation
             {
                 _containsTarget = target != null;
                 return _containsTarget;
+            }
+        }
+
+        public int Delay
+        {
+            get
+            {
+                return Random.Range(minDelayTime, maxDelayTime);
             }
         }
 

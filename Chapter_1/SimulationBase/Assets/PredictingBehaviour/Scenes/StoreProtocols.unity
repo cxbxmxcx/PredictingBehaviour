@@ -232,6 +232,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -381,6 +383,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -531,6 +535,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -681,6 +687,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -958,6 +966,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -1108,6 +1118,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -1162,6 +1174,16 @@ PrefabInstance:
         type: 3}
       propertyPath: targetTagFilters.Array.data[0]
       value: Customer
+      objectReference: {fileID: 0}
+    - target: {fileID: 8709307778969211162, guid: 54127f9a1b04aaa4da422a07741a294d,
+        type: 3}
+      propertyPath: minDelayTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8709307778969211162, guid: 54127f9a1b04aaa4da422a07741a294d,
+        type: 3}
+      propertyPath: maxDelayTime
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8709307778969211166, guid: 54127f9a1b04aaa4da422a07741a294d,
         type: 3}
@@ -1486,6 +1508,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -1635,6 +1659,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -1791,6 +1817,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -1940,6 +1968,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -2089,6 +2119,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -2238,6 +2270,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -2387,6 +2421,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -2537,6 +2573,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -2686,6 +2724,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -2836,6 +2876,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -3059,6 +3101,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -3209,6 +3253,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -3364,6 +3410,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -3513,6 +3561,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -3668,6 +3718,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -3817,6 +3869,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -3966,6 +4020,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -4010,6 +4066,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1904579073}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &214896954 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8709307778969211162, guid: 54127f9a1b04aaa4da422a07741a294d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1904579073}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f982ba94acf4e64cbbf3cef52250712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &217487918
 GameObject:
   m_ObjectHideFlags: 0
@@ -4121,6 +4189,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -4270,6 +4340,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -4419,6 +4491,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -4568,6 +4642,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -4717,6 +4793,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -4867,6 +4945,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -5022,6 +5102,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -5172,6 +5254,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -5322,6 +5406,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -5521,6 +5607,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -5670,6 +5758,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -5831,6 +5921,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -5980,6 +6072,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -6129,6 +6223,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -6352,6 +6448,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -6502,6 +6600,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -6651,6 +6751,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -6800,6 +6902,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -6949,6 +7053,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -7117,6 +7223,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -7267,6 +7375,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -7416,6 +7526,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -7658,6 +7770,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -7860,6 +7974,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -8010,6 +8126,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -8160,6 +8278,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -8316,6 +8436,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -8465,6 +8587,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -8614,6 +8738,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -8763,6 +8889,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -8913,6 +9041,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -9062,6 +9192,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -9211,6 +9343,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -9467,6 +9601,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -9616,6 +9752,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -9765,6 +9903,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -9920,6 +10060,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -10070,6 +10212,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -10225,6 +10369,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -10374,6 +10520,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -10524,6 +10672,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -10742,6 +10892,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -10898,6 +11050,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -11047,6 +11201,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -11324,6 +11480,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -11671,6 +11829,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -11820,6 +11980,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -12038,6 +12200,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -12187,6 +12351,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -12336,6 +12502,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -12485,6 +12653,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -12634,6 +12804,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -12893,6 +13065,52 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 84308552}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &961231779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 961231780}
+  - component: {fileID: 961231781}
+  m_Layer: 0
+  m_Name: Exit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &961231780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961231779}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1282241882}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &961231781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961231779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4057b4cbb019b524e97e34c9c0be933a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 918615797}
+  routePurpose: Customer_Exit
 --- !u!1 &967075758
 GameObject:
   m_ObjectHideFlags: 0
@@ -13004,6 +13222,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -13287,6 +13507,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -13613,6 +13835,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -13890,6 +14114,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -14108,6 +14334,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -14257,6 +14485,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -14406,6 +14636,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -14555,6 +14787,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -14839,6 +15073,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -14886,8 +15122,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1129266528}
+  - component: {fileID: 1129266529}
   m_Layer: 0
-  m_Name: CheckoutRoute1
+  m_Name: PurchaseExit_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14909,6 +15146,23 @@ Transform:
   m_Father: {fileID: 1282241882}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1129266529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129266527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4057b4cbb019b524e97e34c9c0be933a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 214896954}
+  - {fileID: 1513326723}
+  - {fileID: 918615797}
+  routePurpose: Customer_Purchase_Exit
 --- !u!1 &1142504157
 GameObject:
   m_ObjectHideFlags: 0
@@ -15021,6 +15275,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -15171,6 +15427,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -15320,6 +15578,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -15469,6 +15729,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -15619,6 +15881,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -15799,6 +16063,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -15948,6 +16214,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -16191,6 +16459,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -16257,6 +16527,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1129266528}
+  - {fileID: 961231780}
   m_Father: {fileID: 1502320349}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16403,6 +16674,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -16552,6 +16825,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -16702,6 +16977,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -16851,6 +17128,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -17001,6 +17280,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -17150,6 +17431,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -17299,6 +17582,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -17448,6 +17733,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -17597,6 +17884,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -17924,6 +18213,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -18073,6 +18364,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -18228,6 +18521,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -18377,6 +18672,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -18526,6 +18823,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -18611,6 +18910,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   products: []
+  routes: []
+  maxTaskTime: 1000
   _customerEnter: {fileID: 495158688}
   _customerExit: {fileID: 918615797}
 --- !u!4 &1513326721 stripped
@@ -18619,6 +18920,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1664749452}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1513326723 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8709307778969211162, guid: 54127f9a1b04aaa4da422a07741a294d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1664749452}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f982ba94acf4e64cbbf3cef52250712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1521618311
 GameObject:
   m_ObjectHideFlags: 0
@@ -18731,6 +19044,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -18880,6 +19195,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -19030,6 +19347,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -19180,6 +19499,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -19329,6 +19650,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -19484,6 +19807,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -19633,6 +19958,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -19782,6 +20109,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -19931,6 +20260,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -20081,6 +20412,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -20231,6 +20564,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -20301,6 +20636,16 @@ PrefabInstance:
         type: 3}
       propertyPath: targetTagFilters.Array.data[0]
       value: Customer
+      objectReference: {fileID: 0}
+    - target: {fileID: 8709307778969211162, guid: 54127f9a1b04aaa4da422a07741a294d,
+        type: 3}
+      propertyPath: minDelayTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8709307778969211162, guid: 54127f9a1b04aaa4da422a07741a294d,
+        type: 3}
+      propertyPath: maxDelayTime
+      value: 240
       objectReference: {fileID: 0}
     - target: {fileID: 8709307778969211166, guid: 54127f9a1b04aaa4da422a07741a294d,
         type: 3}
@@ -20475,6 +20820,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -20624,6 +20971,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -20773,6 +21122,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -20923,6 +21274,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -21146,6 +21499,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -21295,6 +21650,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -21445,6 +21802,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -21645,6 +22004,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -21794,6 +22155,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -21943,6 +22306,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -22284,6 +22649,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -22433,6 +22800,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -22588,6 +22957,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -22737,6 +23108,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -22892,6 +23265,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -23042,6 +23417,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -23192,6 +23569,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -23544,6 +23923,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -23694,6 +24075,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -23844,6 +24227,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -23993,6 +24378,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -24143,6 +24530,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -24292,6 +24681,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -24448,6 +24839,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -24597,6 +24990,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -24747,6 +25142,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -24811,6 +25208,16 @@ PrefabInstance:
         type: 3}
       propertyPath: targetTagFilters.Array.data[0]
       value: Customer
+      objectReference: {fileID: 0}
+    - target: {fileID: 8709307778969211162, guid: 54127f9a1b04aaa4da422a07741a294d,
+        type: 3}
+      propertyPath: minDelayTime
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8709307778969211162, guid: 54127f9a1b04aaa4da422a07741a294d,
+        type: 3}
+      propertyPath: maxDelayTime
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8709307778969211166, guid: 54127f9a1b04aaa4da422a07741a294d,
         type: 3}
@@ -24985,6 +25392,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -25208,6 +25617,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -25357,6 +25768,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -25506,6 +25919,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -25656,6 +26071,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -25806,6 +26223,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -26158,6 +26577,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -26313,6 +26734,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -26462,6 +26885,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -26759,6 +27184,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -26909,6 +27336,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -27168,6 +27597,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -27317,6 +27748,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -27466,6 +27899,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -27615,6 +28050,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -27764,6 +28201,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -27993,6 +28432,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0
@@ -28143,6 +28584,8 @@ MonoBehaviour:
   targetTagFilters:
   - Customer
   - Staff
+  minDelayTime: 30
+  maxDelayTime: 120
   canInfect: 1
   isInfected: 0
   _containsTarget: 0

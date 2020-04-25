@@ -12,6 +12,9 @@ namespace IL.Simulation
         [Header("List of Navigation Routes")]
         public List<NavigationRoute> routes;
 
+        [Header("Maximum amount of time agent should spend on a task")]
+        public int maxTaskTime = 1000;
+
         [Header("Customer Enterance")]
         [SerializeField]
         private NavigationWaypoint _customerEnter;        
@@ -59,10 +62,25 @@ namespace IL.Simulation
             }                        
         }
 
-        public AgentTask GetAgentTask(string agentType, long timeAlive)
+        public AgentTask GetAgentTask(SimulationAgent agent)
         {
             var at = new AgentTask();
-            at.waypoints = CreateShoppingList(5);
+
+            switch (agent.agentType)
+            {
+                case "Customer":
+                    if (agent.timeAlive < Random.Range(0, maxTaskTime))
+                    {
+                        at.taskName = "Shopping";
+                        at.waypoints = CreateShoppingList(5);
+                    }
+                    else
+                    {
+                        at.taskName = "Checking out";
+                        at.waypoints = GetRoute(agent.transform.position, "Customer_Purchase_Exit");
+                    }
+                    break;
+            }
             return at;
         }
 

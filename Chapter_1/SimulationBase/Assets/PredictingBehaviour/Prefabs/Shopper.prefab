@@ -799,12 +799,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 1
-  minShopListItems: 2
-  maxShopListItems: 5
-  minDelayTime: 30
-  maxDelayTime: 120
-  shopList: []
-  shopItem: 0
+  agentType: Customer
+  agentTask:
+    taskName: 
+    waypoints: []
+    waypointIndex: 0
+    minDelayTime: 30
+    maxDelayTime: 120
+  timeAlive: 0
 --- !u!136 &3135871196182497807
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -850,7 +852,11 @@ MonoBehaviour:
   mask: 0
   _infectionState: 0
   statusMarker: {fileID: 2013979470877715843}
+  statusMarkerPrefab: {fileID: 0}
+  statusMarkerHeight: 0
   infectionForm: 0
+  numInfectionTargets: 0
+  cumulativeTime: 0
 --- !u!1 &2608476331804563779
 GameObject:
   m_ObjectHideFlags: 0

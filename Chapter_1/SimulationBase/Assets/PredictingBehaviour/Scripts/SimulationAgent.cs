@@ -13,12 +13,7 @@ namespace IL.Simulation
         public float rotationSpeed = 2;
 
         public string agentType;
-        public AgentTask agentTask;
-
-        [Header("Number of Tasks")]
-        public int minTaskItems = 2;
-        public int maxTaskItems = 5;
-
+        public AgentTask agentTask; 
         public long timeAlive;
         
         private NavMeshAgent agent;
@@ -50,7 +45,7 @@ namespace IL.Simulation
             GetNextTask();
         }
 
-        public void GetNextTask() => agentTask = NavigationManager.Instance.GetAgentTask(agentType, timeAlive);
+        public void GetNextTask() => agentTask = NavigationManager.Instance.GetAgentTask(this);
 
         private void Update()
         {
@@ -84,13 +79,12 @@ namespace IL.Simulation
             {
                 GetNextTask();                 
             }
-                                    
-            Pause(agentTask.delay, agent.destination);
-
+            
             var next = agentTask.NextWaypoint;
             if (next != null)
             {
                 agent.destination = next.transform.position;
+                Pause(agentTask.Delay, agent.destination);
             }
             else
             {
