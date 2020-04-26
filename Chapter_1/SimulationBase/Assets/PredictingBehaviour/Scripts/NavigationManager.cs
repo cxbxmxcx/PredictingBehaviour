@@ -72,7 +72,7 @@ namespace IL.Simulation
                     if (agent.timeAlive < Random.Range(0, maxTaskTime))
                     {
                         at.taskName = "Shopping";
-                        at.waypoints = CreateShoppingList(5);
+                        at.waypoints = CreateShoppingList(Random.Range(2, 20));
                     }
                     else
                     {
@@ -113,6 +113,11 @@ namespace IL.Simulation
             {
                 var rs = routes.Where(_ => _.routePurpose == routePurpose).ToArray();
                 if (rs.Count() == 1) return rs[0].waypoints;
+                else
+                {
+                    var routeNum = Random.Range(0, rs.Count());
+                    return rs[routeNum].waypoints;
+                }
                 
             }
             return new NavigationWaypoint[0];

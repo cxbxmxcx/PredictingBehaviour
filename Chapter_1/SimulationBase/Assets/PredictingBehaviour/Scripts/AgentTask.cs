@@ -7,7 +7,7 @@ namespace IL.Simulation
     {
         public string taskName;
         public NavigationWaypoint[] waypoints;
-        public int waypointIndex = 0;
+        public int waypointIndex = -1;
         
         public AgentTask()
         {
@@ -38,8 +38,8 @@ namespace IL.Simulation
                     return null;
                 }
                 else
-                {
-                    return waypoints[waypointIndex++];
+                {                    
+                    return waypoints[waypointIndex];
                 }
             }
         }

@@ -13,6 +13,9 @@ namespace IL.Simulation
         [Header("Percent Chance of New Customer")]
         public float minNewCustomerChance = 0.0f;
         public float maxNewCustomerChance = 100.0f;
+
+        public int maxAllowedCustomers = 1;
+
         [Header("(DEBUG - Chance of Spawning Customer")]
         public float spawnChance;
         
@@ -27,13 +30,27 @@ namespace IL.Simulation
                 SpawnCustomer();
                 spawnChance = 0;
             }
+            _customerCount = transform.childCount;
+        }
+
+        [SerializeField]
+        private int _customerCount;
+        public int CustomerCount
+        {
+            get
+            {
+                return _customerCount;
+            }            
         }
 
         private void SpawnCustomer()
         {
-            var agent = Instantiate<SimulationAgent>(customer, 
-                NavigationManager.Instance.customerEnter.transform.position, Quaternion.identity, transform);
-            agent.Init();            
+            if (CustomerCount < maxAllowedCustomers)
+            {
+                var agent = Instantiate<SimulationAgent>(customer,
+                    NavigationManager.Instance.customerEnter.transform.position, Quaternion.identity, transform);
+                agent.Init();
+            }
         }
     }
 }

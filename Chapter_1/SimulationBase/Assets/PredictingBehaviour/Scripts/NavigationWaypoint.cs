@@ -17,7 +17,7 @@ namespace IL.Simulation
         public bool canInfect;
         public bool isInfected;        
 
-        private GameObject target;
+        public GameObject target;
 
         [SerializeField]
         private bool _containsTarget;

@@ -32,11 +32,12 @@ namespace IL.Simulation
                 return animator;
             }
         }
-
-        private Vector3 destination;
-        private bool paused;
-        private int pausing;
-        private Vector3 agentTarget;
+        
+        [Header("DEBUG - for navigation")]
+        public Vector3 destination;
+        public bool paused;
+        public int pausing;
+        public Vector3 agentTarget;
         
         public void Init()
         {
@@ -66,10 +67,15 @@ namespace IL.Simulation
                 agent.isStopped = false;
                 animator.SetBool("Walking", true);
             }
-
+            
             if (agent.pathPending == false && agent.remainingDistance < 0.5f)
             {
                 MoveNext();                
+            }
+
+            if(agent.remainingDistance < 5f && agentTask.NextWaypoint != null && agentTask.NextWaypoint.ContainsTarget)
+            {
+                Pause(Random.Range(5, 15), agent.destination);
             }
         }
 
@@ -77,18 +83,21 @@ namespace IL.Simulation
         {                 
             if (agentTask == null)
             {
-                GetNextTask();                 
+                GetNextTask();
+                MoveNext();
             }
-            
-            var next = agentTask.NextWaypoint;
+
+            agentTask.waypointIndex++;
+            var next = agentTask.NextWaypoint;            
             if (next != null)
             {
                 agent.destination = next.transform.position;
-                Pause(agentTask.Delay, agent.destination);
+                Pause(agentTask.Delay, agent.destination);                
             }
             else
             {
                 GetNextTask();
+                MoveNext();
             }
         }
 
